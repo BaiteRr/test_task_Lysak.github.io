@@ -67,11 +67,16 @@ select {
     font: inherit;
 }
 .header {
-  display: flex;
   background-image: url(88879dfbcccdb81b0a35d606693671fc.jpg);
+  height: 400px; }
+
+.background {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
   height: 400px;
+  width: 1920px;
   padding-top: 188px; }
-  .header__text {
+  .background__text {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;

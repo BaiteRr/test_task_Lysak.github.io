@@ -70,3 +70,7 @@ textarea,
 select {
     font: inherit;
 }
+
+.bottom {
+    height: 50px;
+}

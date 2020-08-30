@@ -66,6 +66,10 @@ textarea,
 select {
     font: inherit;
 }
+
+.bottom {
+    height: 50px;
+}
 .header {
   display: flex;
   background-image: url(88879dfbcccdb81b0a35d606693671fc.jpg);
@@ -222,18 +226,22 @@ select {
   .help__subtext {
     margin: 0; }
   .form {
-    width: 100%;
+    width: 70%;
     height: 300px; }
     .form__button {
       text-align: center;
       width: 60%;
       height: auto; }
+  .border {
+    margin-left: 20px; }
   .input {
     justify-content: center; }
     .input__name {
-      border: 1px solid grey; }
+      border: 1px solid grey;
+      margin: 0 5px 5px 0; }
     .input__email {
-      border: 1px solid grey; } }
+      border: 1px solid grey;
+      margin: 0 5px 5px 0; } }
 
 @media screen and (max-width: 1132px) {
   .our {
